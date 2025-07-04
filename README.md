@@ -6,9 +6,26 @@
 El objetivo con este proyecto es lograr predecir estas fallas a tiempo, para así realizar la debida mantención y evitar costos mayores.
 
 ## Dataset
-- Fuente: [Kaggle] (https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification)
+- Fuente: [Kaggle – Machine Predictive Maintenance Dataset](https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification)
 - Este dataset contiene datos asociados a lecturas de sensores, los cuales dan información respecto a las condiciones operativas de máquinas en la industria.
 La variable objetivo es Machine failure, la cual es binaria, donde: 0 = no hay falla, 1 = hay falla.
+
+#### 📄 Variables disponibles
+
+| Variable               | Tipo        | Descripción |
+|------------------------|-------------|-------------|
+| `UDI`                 | Numérica     | Identificador único del registro. |
+| `Product ID`          | Categórica   | ID del producto. |
+| `Type`                | Categórica   | Tipo de producto A, B o C. |
+| `Air temperature [K]` | Numérica     | Temperatura del aire en Kelvin. |
+| `Process temperature [K]` | Numérica | Temperatura del proceso interno. |
+| `Rotational speed [rpm]` | Numérica  | Velocidad de rotación del eje de la máquina. |
+| `Torque [Nm]`         | Numérica     | Fuerza de torsión aplicada. |
+| `Tool wear [min]`     | Numérica     | Minutos acumulados de desgaste de herramienta. |
+| `Target` (`Machine failure`) | Binaria | Variable objetivo: 0 = no hay falla, 1 = hay falla. |
+| `Failure Type`        | Categórica   | Tipo específico de falla. |
+
+Solo se utilizarán como **features** las variables numéricas relevantes (temperaturas, torque, velocidad, desgaste), junto con `Type` codificada. Se excluirán `UDI`, `Product ID` y `Failure Type`.
 
 ## Modelos seleccionados
 Modelos a evaluar:
