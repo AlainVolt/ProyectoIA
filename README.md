@@ -27,12 +27,8 @@ La variable objetivo es Machine failure, la cual es binaria, donde: 0 = no hay f
 
 Solo se utilizarán como **features** las variables numéricas relevantes (temperaturas, torque, velocidad, desgaste), junto con `Type` codificada. Se excluirán `UDI`, `Product ID` y `Failure Type`.
 
-## Modelos seleccionados
-Modelos a evaluar:
-- Naive-Bayes
-- Decision Tree
+## Modelo seleccionado
 - Random Forest
-- K-Nearest Neighbors (KNN)
 
 ## Estrategia de evaluación
 Cada modelo se evaluará utilizando una división de los datos en un 80% para entrenamiento y 20% para testeo, manteniendo el balance de clases. 
