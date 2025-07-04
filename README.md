@@ -6,8 +6,8 @@
 El objetivo con este proyecto es lograr predecir estas fallas a tiempo, para así realizar la debida mantención y evitar costos mayores.
 
 ## Dataset
-Fuente: [Kaggle] (https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification)
-Este dataset contiene datos asociados a lecturas de sensores, los cuales dan información respecto a las condiciones operativas de máquinas en la industria.
+- Fuente: [Kaggle] (https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification)
+- Este dataset contiene datos asociados a lecturas de sensores, los cuales dan información respecto a las condiciones operativas de máquinas en la industria.
 La variable objetivo es Machine failure, la cual es binaria, donde: 0 = no hay falla, 1 = hay falla.
 
 ## Modelos seleccionados
@@ -19,6 +19,8 @@ Modelos a evaluar:
 
 ## Estrategia de evaluación
 Cada modelo se evaluará utilizando una división de los datos en un 80% para entrenamiento y 20% para testeo, manteniendo el balance de clases. 
+
+
 Las métricas utilizadas serán:
 - Accuracy: para medir el desempeño general.
 - Precision: para saber cuántas predicciones positivas son correctas.
