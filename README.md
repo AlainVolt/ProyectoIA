@@ -31,7 +31,7 @@ Solo se utilizarán como **features** las variables numéricas relevantes (tempe
 - Random Forest
 
 ## Estrategia de evaluación
-Cada modelo se evaluará utilizando una división de los datos en un 80% para entrenamiento y 20% para testeo, manteniendo el balance de clases. 
+El modelo se evaluará utilizando una división de los datos en un 80% para entrenamiento y 20% para testeo, manteniendo el balance de clases. 
 
 
 Las métricas utilizadas serán:
