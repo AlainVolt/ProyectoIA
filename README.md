@@ -2,7 +2,8 @@
 
 ## Descripción del problema
 ¿Podemos predecir a tiempo si una máquina sufrirá una falla conociendo las lecturas de diferentes tipos de sensores como temperatura, velocidad de rotación, etc?
-El objetivo con este proyecto es lograr predecir estas fallas a tiempo, para así realizar mantención y evitar costos mayores.
+
+El objetivo con este proyecto es lograr predecir estas fallas a tiempo, para así realizar la debida mantención y evitar costos mayores.
 
 ## Dataset
 Fuente: [Kaggle] (https://www.kaggle.com/datasets/shivamb/machine-predictive-maintenance-classification)
