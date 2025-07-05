@@ -1,3 +1,4 @@
+
 # Mantenimiento Predictivo de Máquinas
 
 ## Descripción del problema
